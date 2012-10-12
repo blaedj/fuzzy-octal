@@ -7,7 +7,9 @@ body p{
 }
 
 .headerbar {
-    background-color: black
+    background: -webkit-gradient(linear, left top, left bottom, from(#0ff), to(#1b9));
+    margin: 0px 0px 0px 0px;
+ 
 
 }
 
@@ -15,6 +17,11 @@ body p{
     font-family: monospace
     color: white
     font-weight: bold
+    
+}
 
+.undl {
+    text-decoration: underline;
+    
 }
 
