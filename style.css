@@ -9,7 +9,7 @@ body p{
 .headerbar {
     background: -webkit-gradient(linear, left top, left bottom, from(#0ff), to(#1b9));
     margin: 0px 0px 0px 0px;
- 
+
 
 }
 
@@ -17,11 +17,29 @@ body p{
     font-family: monospace
     color: white
     font-weight: bold
-    
+
+}
+
+.box {
+    text-align: center;
+    border-collapse: separate;
+    border: ridge;
+    background-attachment: fixed;
+    background-color: rgb;
 }
 
 .undl {
     text-decoration: underline;
-    
 }
 
+.but {
+    display: block;
+    margin-right: 25%;
+    margin-left: 30%;
+    padding: 8px;
+    background-color: gray;
+}
+
+.but a {
+    font-size: larger;
+}
