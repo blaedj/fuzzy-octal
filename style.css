@@ -9,37 +9,55 @@ body p{
 .headerbar {
     background: -webkit-gradient(linear, left top, left bottom, from(#0ff), to(#1b9));
     margin: 0px 0px 0px 0px;
-
+    padding: .5em;
 
 }
 
-.headerbar ul{
+.headerbar ul li{
+    display: inline;
+    padding: 1em;
     font-family: monospace
     color: white
     font-weight: bold
 
 }
 
+.sidebar{
+    float: left;
+    margin: 2em;
+    padding: 1em;
+    background-color: navy;
+}
+
+#links{
+    list-style: none;
+}
+
 .box {
-    text-align: center;
-    border-collapse: separate;
+    float: right;
+    margin: 2em;
+    padding: 1em;
+    text-align: left;
     border: ridge;
-    background-attachment: fixed;
-    background-color: rgb;
+
 }
 
 .undl {
     text-decoration: underline;
 }
 
+
+
 .but {
-    display: block;
-    margin-right: 25%;
-    margin-left: 30%;
-    padding: 8px;
+    margin-top: .4em;
+    margin-bottom: .4em;
+    margin-right: 36%;
+    margin-left: 36%;
+    padding: 2%;
     background-color: gray;
+    width: 20%;    
 }
 
-.but a {
-    font-size: larger;
+.box p em{
+    font-weight: bold;
 }
